@@ -4,6 +4,6 @@ get '/:room' do
   redirect "https://plus.google.com/hangouts/_/able.co/#{params[:room]}", 303
 end
 
-get '/present/:room' do
+get '/p/:room' do
   redirect "http://g.co/present/#{params[:room]}", 303
 end

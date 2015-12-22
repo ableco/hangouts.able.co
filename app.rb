@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/:room' do
-  redirect "http://g.co/hangout/#{params[:room]}", 303
+  redirect "https://plus.google.com/hangouts/_/able.co/#{params[:room]}", 303
 end
 
 get '/present/:room' do
